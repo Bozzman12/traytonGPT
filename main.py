@@ -6,6 +6,8 @@ from services.indicators import compute_indicators, infer_trend
 from services.patterns import detect_patterns
 from models import BacktestRequest
 from services.backtest import run_backtest
+from services.patterns import detect_patterns
+
 
 app = FastAPI(title="Trayton Backend", version="0.1.0")
 
